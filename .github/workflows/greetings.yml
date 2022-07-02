@@ -6,4 +6,5 @@ jobs:
   greeting:
     runs-on: self-hosted
     steps:
+    - run: pwd
     - run: bazel build //testing:hello_test
