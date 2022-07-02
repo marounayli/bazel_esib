@@ -1,0 +1,9 @@
+name: Greetings
+
+on: [push]
+
+jobs:
+  greeting:
+    runs-on: self-hosted
+    steps:
+    - run: echo "Hello World"
